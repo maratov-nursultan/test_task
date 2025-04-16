@@ -1,9 +1,9 @@
 package service
 
 import (
+	"github.com/maratov-nursultan/profile/internal/manager"
+	"github.com/maratov-nursultan/profile/internal/repository"
 	"github.com/uptrace/bun"
-	"test_task/internal/manager"
-	"test_task/internal/repository"
 )
 
 type Service struct {

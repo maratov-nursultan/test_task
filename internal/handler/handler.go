@@ -4,9 +4,9 @@ import (
 	"database/sql"
 	"errors"
 	"github.com/labstack/echo/v4"
+	user "github.com/maratov-nursultan/profile/internal/manager"
+	"github.com/maratov-nursultan/profile/internal/model"
 	"strconv"
-	user "test_task/internal/manager"
-	"test_task/internal/model"
 )
 
 type Handler struct {

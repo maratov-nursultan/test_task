@@ -2,10 +2,10 @@ package main
 
 import (
 	"github.com/labstack/echo/v4"
+	"github.com/maratov-nursultan/profile/internal/database"
+	"github.com/maratov-nursultan/profile/internal/handler"
+	"github.com/maratov-nursultan/profile/internal/service"
 	"log"
-	"test_task/internal/database"
-	"test_task/internal/handler"
-	"test_task/internal/service"
 )
 
 func main() {

@@ -3,10 +3,10 @@ package user
 import (
 	"context"
 	"fmt"
+	"github.com/maratov-nursultan/profile/internal/model"
+	"github.com/maratov-nursultan/profile/internal/repository"
 	"strconv"
 	"strings"
-	"test_task/internal/model"
-	"test_task/internal/repository"
 	"unicode"
 )
 

@@ -1,4 +1,4 @@
-module test_task
+module github.com/maratov-nursultan/profile
 
 go 1.23.0
 
